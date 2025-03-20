@@ -3,4 +3,6 @@ h1{
 }
 .pages{
 	display:inline-block;
+	text-align: center;
+	padding: 50px;
 }
