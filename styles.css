@@ -5,8 +5,12 @@ h2{
 	text-align: center;
 	display: inline-block;
 	padding: 40px;
+	margin:0;
 }
 .button{
 	background-color: hsl(230, 100%, 60%);
 	padding: 10px;
+}
+.projectType{
+	display: inline;
 }
