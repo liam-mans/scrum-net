@@ -15,6 +15,7 @@ padding: 32px;
 background-color: #000063;
 color: #fff;
 border-bottom: 4px solid #d30000;
+font-size: larger;
 }
 
 .gallery {
@@ -106,6 +107,7 @@ width: 350px;
 	text-transform: uppercase;
 	border-color: #d30000;
 	border-radius: 10px;
+	padding: 20px;
 }
 .server-button{
 	margin-top: 20px;
