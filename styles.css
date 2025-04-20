@@ -12,9 +12,9 @@ background: #f5f6f7;
 text-align: center;
 text-transform: uppercase;
 padding: 32px;
-background-color: #0a0a23;
+background-color: #000063;
 color: #fff;
-border-bottom: 4px solid #fdb347;
+border-bottom: 4px solid #d30000;
 }
 
 .gallery {
@@ -60,7 +60,7 @@ width: 350px;
 	gap:100px;
 	text-align: center;
 	text-transform: uppercase;
-	background-color: #0a0a23;
+	background-color: #000063;
 	
 }
 .home-photo{
@@ -97,4 +97,41 @@ width: 350px;
 	justify-content: center;
 	align-items: center;
 	gap:30%;
+}
+.home-button{
+	background-color: #000063;
+	color: #fff;
+	font-size: 35px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	border-color: #d30000;
+	border-radius: 10px;
+}
+.server-button{
+	margin-top: 20px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+}
+.jellyfin-button{
+	background-color: rgb(114, 0, 114);
+	font-size: 35px;
+	padding:50px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.file-button{
+	background-color: black;
+	font-size: 40px;
+	padding:50px;
+	color: #fff;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+	font-family: 'Courier New', Courier, monospace;
 }
