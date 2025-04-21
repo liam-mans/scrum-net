@@ -99,6 +99,15 @@ width: 350px;
 	align-items: center;
 	gap:30%;
 }
+.party-header{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap:30%;
+	color: #000063;
+}
 .home-button{
 	background-color: #000063;
 	color: #fff;
@@ -136,4 +145,46 @@ width: 350px;
 	border-color: black;
 	border-width: 5px;
 	font-family: 'Courier New', Courier, monospace;
+}
+.year-button{
+	background-color: #000063;
+	color: #fff;
+	font-size: 35px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	border-color: #d30000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px auto;
+	display: block;
+}
+
+
+input{
+	width:20%;
+	display: block;
+}
+input[type="submit"] {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #000063;
+	border-color: #d30000;
+	color: white;
+	min-width: 300px;
+	font-family: sans-serif;
+  }
+fieldset{
+	margin: 10px 0 0 0;
+	align-content: center;
+	background-color: #000063;
+	border-color: #d30000;
+	color: #fff;
+}
+textarea{
+	display: block;
+	width:100%;
+	margin:1em auto;
 }
